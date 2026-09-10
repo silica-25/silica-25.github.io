@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>家ケイ簿 プライバシーポリシー</title>
+<style>
+  :root {
+    --bg: #eff3f4;
+    --surface: #ffffff;
+    --text: #1b2733;
+    --text-muted: #5c6b76;
+    --accent: #2b6e6b;
+    --accent-soft: #dceae8;
+    --border: #d7dee1;
+    --mono: 'IBM Plex Mono', ui-monospace, monospace;
+    --serif: Georgia, 'Noto Serif JP', serif;
+    --sans: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12181c;
+      --surface: #1b2328;
+      --text: #e7edee;
+      --text-muted: #94a3ab;
+      --accent: #5fbbb3;
+      --accent-soft: #1f3a38;
+      --border: #2a343a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  .page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 0.75rem;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(1.9rem, 5vw, 2.6rem);
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    margin: 0 0 1.25rem;
+  }
+  .glint {
+    height: 2px;
+    width: 100%;
+    margin-bottom: 2rem;
+    background: linear-gradient(90deg, var(--accent) 0%, var(--accent-soft) 40%, transparent 75%);
+    border-radius: 2px;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+  }
+  .meta span b { color: var(--text); font-weight: 600; }
+  p { margin: 0 0 1.1em; color: var(--text); }
+  .lead {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    border-left: 3px solid var(--accent);
+    padding-left: 1.1rem;
+    margin-bottom: 3rem;
+  }
+  section { padding: 2.25rem 0; border-top: 1px solid var(--border); }
+  section:first-of-type { border-top: none; padding-top: 0; }
+  .sec-head { display: flex; align-items: baseline; gap: 0.75rem; margin-bottom: 1rem; }
+  .sec-num {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    flex: none;
+  }
+  h2 { font-family: var(--serif); font-weight: 600; font-size: 1.3rem; margin: 0; }
+  h3 { font-family: var(--sans); font-weight: 700; font-size: 1rem; margin: 1.4em 0 0.5em; color: var(--text); }
+  ul { margin: 0 0 1.1em; padding-left: 1.3rem; }
+  li { margin-bottom: 0.55em; }
+  li::marker { color: var(--accent); }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.1rem 1.3rem;
+    margin: 1.1rem 0;
+  }
+  .card-title { font-weight: 700; font-size: 0.92rem; margin-bottom: 0.35em; }
+  .card-note { font-size: 0.88rem; color: var(--text-muted); margin: 0; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  a { color: var(--accent); }
+  @media (max-width: 480px) { .page { padding: 3rem 1.2rem 4rem; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <p class="eyebrow">Privacy Policy</p>
+  <h1>家ケイ簿 プライバシーポリシー</h1>
+  <div class="glint"></div>
+  <div class="meta">
+    <span>制定日: <b>2026年8月25日</b></span>
+    <span>アプリ名: <b>家ケイ簿</b></span>
+    <span>提供者: <b>二酸化ケイ素</b></span>
+  </div>
+
+  <p class="lead">
+    「家ケイ簿」(以下「本アプリ」)は、アルバイト等で働く方が、収入と支出、そして扶養・税制上の「収入の壁」を一緒に管理できる家計簿アプリです。本ポリシーでは、本アプリが取り扱う情報の内容と、その取り扱い方針について説明します。
+  </p>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">01</span><h2>収集する情報</h2></div>
+    <p>本アプリは、以下の情報を取り扱います。</p>
+    <h3>アプリ内で入力する家計簿データ</h3>
+    <p>取引記録(入金・出金・移動)、勤務先やシフト・給料日の予定、資産運用の記録など、ご自身で入力した内容です。これらは端末内のデータベースにのみ保存され、本アプリの開発者のサーバーに送信されることはありません。</p>
+    <h3>Googleアカウント情報</h3>
+    <p>「Google Driveへのバックアップ・復元」機能を利用する場合のみ、Googleへのログインのためにメールアドレス等のアカウント情報を使用します。この機能を使わない場合、Googleアカウント情報は一切取得されません。</p>
+    <h3>カレンダー情報</h3>
+    <p>「高度な設定」で「カレンダー自動同期」を有効にした場合のみ、シフトの予定をスマートフォンのカレンダーアプリに書き込むために、カレンダーの読み取り・書き込みを行います。</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">02</span><h2>情報の保存場所と第三者提供</h2></div>
+    <div class="card">
+      <p class="card-title">端末内保存が基本です</p>
+      <p class="card-note">家計簿データは端末内のデータベースにのみ保存されます。本アプリの開発者を含め、外部の第三者がこのデータを閲覧・取得することはありません。</p>
+    </div>
+    <div class="card">
+      <p class="card-title">Google Driveバックアップについて</p>
+      <p class="card-note">バックアップ機能を使うと、データはお使いのGoogleアカウントの非公開領域(アプリ専用フォルダ)に保存されます。この領域は他のファイルとは分離されており、通常のGoogle Drive画面には表示されず、本アプリの開発者を含む第三者はアクセスできません。</p>
+    </div>
+    <p>本アプリは、収集した情報を広告目的や第三者への販売・共有のために利用することはありません。また、アクセス解析(トラッキング)や広告配信のためのSDKは組み込んでいません。</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">03</span><h2>権限の利用目的</h2></div>
+    <ul>
+      <li><b>通知:</b> 給料日・支払い予定日・収入の壁への接近をお知らせするために使用します。判定はすべて端末内で行われ、外部への送信は発生しません。</li>
+      <li><b>カレンダーの読み取り・書き込み:</b> 「カレンダー自動同期」を有効にした場合のみ、シフト予定をカレンダーアプリに反映するために使用します。</li>
+      <li><b>生体認証:</b> アプリ起動時のロック機能のために使用します。認証処理自体はOSが行い、指紋や顔の情報が本アプリや開発者に渡ることはありません。</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">04</span><h2>データの削除</h2></div>
+    <ul>
+      <li>本アプリをアンインストールすると、端末内に保存されたデータはすべて削除されます。</li>
+      <li>Google Driveのバックアップデータは、Googleアカウントの設定(<a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">アカウントにアクセスできるアプリ</a>)から本アプリのアクセス権を取り消すことで、あわせて削除されます。</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">05</span><h2>未成年の方のご利用について</h2></div>
+    <p>本アプリは、アルバイト等で収入を得る学生の方を主な利用者として想定しています。未成年の方がご利用になる場合は、保護者の方の確認のもとでご利用ください。</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">06</span><h2>本ポリシーの変更</h2></div>
+    <p>本ポリシーの内容は、法令の変更やアプリの機能追加に応じて、予告なく変更されることがあります。変更後の内容は、本ページに掲載した時点から効力を持つものとします。</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">07</span><h2>お問い合わせ</h2></div>
+    <p>本ポリシーや本アプリの情報の取り扱いに関するお問い合わせは、以下までご連絡ください。</p>
+    <p>silica.o2.25@gmail.com</p>
+  </section>
+
+  <footer>
+    最終更新日: 2026年8月25日 / 家ケイ簿 v1.0
+  </footer>
+</div>
+</body>
+</html>
